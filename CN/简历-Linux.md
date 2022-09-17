@@ -1,6 +1,8 @@
-<center><h1>燕俊竹</h1></center>
+<div style="display:flex;justify-content:center;"><h1>燕俊竹</h1></div>
 
-<center><h5>Steven Yan</h5></center>
+<div style="display:flex;justify-content:center;"><h4>Steven Yan</h4></div>
+
+<div style="display:flex;justify-content:center;line-height:1.5rem;"><img src="/md.assets/outline_email_black_48dp.png" style="height:1.5rem;margin-right:0.5rem;" /><a href="mailto:me@steven.run" target="blank">me@steven.run</a></div>
 
 > 教育经历
 
@@ -18,7 +20,7 @@
 
 > 相关项目经历
 
-- 树莓派、群晖 NAS 搭建运行个人网络存储服务器*(Nextcloud)*使用 docker-compose 脚本化运行至 Docker 容器中，使用 Portainer 进行容器管理；使用容器运行 DDNS 服务，实现外网访问。
+- 树莓派、群晖 NAS 搭建运行个人网络存储服务器，使用 docker-compose 脚本化运行至 Docker 容器中，使用 Portainer 进行容器管理；使用容器运行 DDNS 服务，实现外网访问。
 - 大约 4 年的云服务器使用经验，基本会使用 Debian, CentOS, Windows Server 服务器搭建个人网站，IM 机器人后端，php 后端，crontab 定时化任务等。
 - 热爱开源文化，乐于向 Github, Gitee 平台提交自己编写的代码，同时积极学习其他人的优秀开源仓库。
 
@@ -41,4 +43,7 @@
 - **“AI 寻忆”小程序。**该小程序为微信开发者大赛参赛项目，主要是利用后端接口为黑白照片进行上色、提升清晰度等，并建立类似“朋友圈”图片发布页面可以分享处理后的照片。在该项目中负责微信小程序开发。
 - **“吾理二手集市”uni-app 项目。**该项目主要是借助 uni-app 的一次编写，多端运行的优势，将小程序这一独立平台开发为多个平台。该项目主要服务本校学生，可在其中发布和寻找二手闲置物品信息。在该项目中负责 uni-app Vue 开发。
 - **“To-do”。**该项目为团队 Hackday 即兴开发项目，主要是实现 H5 平台的个人待办事务展示以及 DDL 提醒功能。在该项目中负责后端 Python 开发。
+- **“Sense Earth”**。该项目为“软件杯”参赛项目，主要实现在网页中展示 AI 对卫星地图的识别结果和上传图片的功能。在该项目中负责`Vue3`前端开发，和`flask`后端平台搭建。
+- 参加**Edge 浏览器开拓者大赛**，主要使用了`React.js`注入页面脚本，`Vue3`作为设置面板，在该项目中负责大部分代码开发。成功晋级 20 强，获得《开拓之星入围奖》。
 
+<a href="./CN/%E7%AE%80%E5%8E%86-Linux.pdf" target="blank">下载 PDF | Download PDF</a>

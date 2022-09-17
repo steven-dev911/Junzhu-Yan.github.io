@@ -1,6 +1,8 @@
-<center><h1>燕俊竹</h1></center>
+<div style="display:flex;justify-content:center;"><h1>燕俊竹</h1></div>
 
-<center><h5>Steven Yan</h5></center>
+<div style="display:flex;justify-content:center;"><h4>Steven Yan</h4></div>
+
+<div style="display:flex;justify-content:center;line-height:1.5rem;"><img src="/md.assets/outline_email_black_48dp.png" style="height:1.5rem;margin-right:0.5rem;" /><a href="mailto:me@steven.run" target="blank">me@steven.run</a></div>
 
 > 教育经历
 
