@@ -34,6 +34,6 @@
 
 ## 更多 | More
 
-- 联络邮箱 | E-mail: [steven.run@outlook.com](mailto:steven.run@outlook.com)
+- 中文联络邮箱：[me@steven.run](mailto:me@steven.run) | (EN)E-mail: [steven.run@outlook.com](mailto:steven.run@outlook.com)
 
 - 访问我的[博客](https://ryzenx.com) | Visit My [Blog](https://ryzenx.com)
