@@ -8,6 +8,7 @@
 # Server Conf
 .htaccess
 .user.ini
+.well-known
 
 # Local History for Visual Studio Code
 .history/
