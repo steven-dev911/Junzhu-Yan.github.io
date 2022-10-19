@@ -6,4 +6,4 @@
   - [服务器操作系统运维](/CN/%E7%AE%80%E5%8E%86-Linux.md "简历 | 服务器操作系统运维")
 
 - [Resume](/)
-  - [Front-end Developer](/EN/Resume-Web.md "Resume for Front-end Developer")
+  - [Front-end Engineer](/EN/Resume-Web.md "Resume for Front-end Engineer")

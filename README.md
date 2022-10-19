@@ -1,6 +1,6 @@
 # Resume Page
 
-## Github Page 展示我的简历
+## 展示我的简历介绍
 
 > Github repository: [github.com/Junzhu-Yan](https://github.com/Junzhu-Yan/Junzhu-Yan.github.io)
 >
@@ -32,8 +32,14 @@
 - 计算机控制技术 | Computer Control Technology
 - 单片机原理及接口技术 | The Principle and Interface of Single Chip Microcomputer
 
+## 目录 | Index
+
+- [前端开发](CN/简历-Web)
+- [安卓客户端开发](CN/简历-Android)
+- [服务器运维](CN/简历-Linux)
+- [Front-end Engineer (Not fully translated)](EN/Resume-Web)
+
 ## 更多 | More
 
 - 中文联络邮箱：[me@steven.run](mailto:me@steven.run) | (EN)E-mail: [steven.run@outlook.com](mailto:steven.run@outlook.com)
-
 - 访问我的[博客](https://ryzenx.com) | Visit My [Blog](https://ryzenx.com)
