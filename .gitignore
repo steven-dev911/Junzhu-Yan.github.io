@@ -5,6 +5,10 @@
 !.vscode/extensions.json
 *.code-workspace
 
+# Server Conf
+.htaccess
+.user.ini
+
 # Local History for Visual Studio Code
 .history/
 
