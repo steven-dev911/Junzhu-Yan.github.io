@@ -15,8 +15,8 @@
 
 ### 个人能力 | Skill
 
-- 前端开发 -- **主要求职方向** | Front-end development -- **Main job search direction**
-- 后端开发 | Back-end and API servce development
+- 前端开发 | Front-end development
+- 后端开发 | Back-end and API service development
 - 服务器运维 | Server operation and maintenance
 - 脚本开发 | Script development by Python and Lua
 

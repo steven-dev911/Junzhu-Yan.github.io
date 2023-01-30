@@ -12,8 +12,8 @@
 
 > 专业技能
 
-- 前端开发：`ES Next`, `CSS`, `HTML5`; 基本了解`TypeScript`。
-- 前端框架：熟悉`Vue3.js`前端框架，基本掌握`React.js`。基本了解`Next.js`, `Nuxt.js`。
+- 前端开发：`ES Next`, `CSS`, `HTML5`; 了解`TypeScript`。
+- 前端框架：熟悉`Vue3.js`前端框架，基本掌握`React.js`。了解`Next.js`。
 - 前端技能：`Antd`, `Vant`等常用组件库; `npm`, `yarn`, `pnpm`包管理工具; `webpack`, `babel`, `vite`等构建工具。基本了解`sass`, `less`, `tailwindCSS`等样式框架。
 - 其他技能：`Git`, `docker`, `PLC`, `C52` 。熟悉`Python3`语言；基本掌握`Python`, `Node.js`服务端开发。
 
