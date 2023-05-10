@@ -1,6 +1,6 @@
 # Resume Page
 
-## 展示我的简历介绍
+## 我的简历介绍
 
 > Github repository: [github.com/Junzhu-Yan](https://github.com/Junzhu-Yan/Junzhu-Yan.github.io)
 >
@@ -41,5 +41,6 @@
 
 ## 更多 | More
 
-- 中文联络邮箱：[me@steven.run](mailto:me@steven.run) | (EN)E-mail: [steven.run@outlook.com](mailto:steven.run@outlook.com)
+- 中文联络邮箱：[me@steven.run](mailto:me@steven.run) | Contact E-mail: [steven.run@outlook.com](mailto:steven.run@outlook.com)
 - 访问我的[博客](https://ryzenx.com) | Visit My [Blog](https://ryzenx.com)
+- 查看我的[笔记](https://memo.stevenos.com) | Read My [Memos](https://memo.stevenos.com)
