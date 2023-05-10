@@ -12,10 +12,12 @@ const HOSTNAME_WHITELIST = [
   "fonts.gstatic.com",
   "fonts.googleapis.com",
   "cdn.jsdelivr.net",
+  "unpkg.com",
+  "cdn.bootcdn.net",
 ];
 
 // The Util Function to hack URLs of intercepted requests
-const getFixedUrl = (req) => {
+const getFixedUrl = req => {
   var now = Date.now();
   var url = new URL(req.url);
 
@@ -42,7 +44,7 @@ const getFixedUrl = (req) => {
  *
  *  waitUntil(): activating ====> activated
  */
-self.addEventListener("activate", (event) => {
+self.addEventListener("activate", event => {
   event.waitUntil(self.clients.claim());
 });
 
@@ -52,7 +54,7 @@ self.addEventListener("activate", (event) => {
  *
  *  void respondWith(Promise<Response> r)
  */
-self.addEventListener("fetch", (event) => {
+self.addEventListener("fetch", event => {
   // Skip some of cross-origin requests, like those for Google Analytics.
   if (HOSTNAME_WHITELIST.indexOf(new URL(event.request.url).hostname) > -1) {
     // Stale-while-revalidate
@@ -61,16 +63,16 @@ self.addEventListener("fetch", (event) => {
     const cached = caches.match(event.request);
     const fixedUrl = getFixedUrl(event.request);
     const fetched = fetch(fixedUrl, { cache: "no-store" });
-    const fetchedCopy = fetched.then((resp) => resp.clone());
+    const fetchedCopy = fetched.then(resp => resp.clone());
 
     // Call respondWith() with whatever we get first.
     // If the fetch fails (e.g disconnected), wait for the cache.
     // If there’s nothing in cache, wait for the fetch.
     // If neither yields a response, return offline pages.
     event.respondWith(
-      Promise.race([fetched.catch((_) => cached), cached])
-        .then((resp) => resp || fetched)
-        .catch((_) => {
+      Promise.race([fetched.catch(_ => cached), cached])
+        .then(resp => resp || fetched)
+        .catch(_ => {
           /* eat any errors */
         })
     );
@@ -78,11 +80,8 @@ self.addEventListener("fetch", (event) => {
     // Update the cache with the version we fetched (only for ok status)
     event.waitUntil(
       Promise.all([fetchedCopy, caches.open(RUNTIME)])
-        .then(
-          ([response, cache]) =>
-            response.ok && cache.put(event.request, response)
-        )
-        .catch((_) => {
+        .then(([response, cache]) => response.ok && cache.put(event.request, response))
+        .catch(_ => {
           /* eat any errors */
         })
     );
